@@ -1,48 +1,10 @@
-# UEX OpenAPI文档
+# UEX OpenAPI 文档
 
 English Documents [click here](https://github.com/UEX-OpenAPI/API_Docs_en/wiki)
 
 <br>
 
-
-## 通用规则
-  
-**_apikey_ 和 _secret_ 的获取，在UEX "[API管理](https://www.uex.com/my_open_api.html)"页面中生成获得。**
-
-**Base url：** https://open-api.uex.com
-
-**sign签名：**  
-请求参数按照字典排序，然后以keyvalue的形式拼接成字符串string，最后sign=MD5(string+secretKey)。  
-注意：如果请求参数中value为NULL的情况，则在拼接字符串时不计入签名字符串。    
-
- 示例如下   
-```python
-def sign (data, apikey, secret):
-    data = copy.deepcopy(data)
-    data['time'] = int(time.time())
-    data['api_key'] = apikey
-    keys = list(data.keys())
-    keys.sort()
-    part = []
-    for key in keys:
-        val = data[key]
-        if val is None:
-            continue
-        part.append(str(key) + str(val))
-    text = ''.join(part)
-    text = (text + secret).encode('utf-8')
-    data['sign'] = hashlib.md5(text).hexdigest()
-    return data 
-```	
-
-<br>
-  
-## POST请求参数采用表单格式提交数据
-**content-type:application/x-www-form-urlencoded**
-
-<br>
-
-## 文档目录
+## 目录
 
 [Home](https://github.com/UEX-OpenAPI/API_Docs/wiki)
 

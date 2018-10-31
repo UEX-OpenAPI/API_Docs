@@ -32,4 +32,14 @@ English Documents [click here](https://github.com/UEX-OpenAPI/API_Docs_en/wiki)
 
 [/open/api/user/account-资产余额](https://github.com/UEX-OpenAPI/API_Docs/wiki/%E8%B5%84%E4%BA%A7%E4%BD%99%E9%A2%9D)
 
+[/open/api/common/coins-查询所有币种充值提现的限制](https://github.com/UEX-OpenAPI/API_Docs/wiki/%E6%9F%A5%E8%AF%A2%E6%89%80%E6%9C%89%E5%B8%81%E7%A7%8D%E5%85%85%E5%80%BC%E6%8F%90%E7%8E%B0%E7%9A%84%E9%99%90%E5%88%B6)
 
+[/open/api/deposit_address_list-查询指定币种的充值地址](https://github.com/UEX-OpenAPI/API_Docs/wiki/%E6%9F%A5%E8%AF%A2%E6%8C%87%E5%AE%9A%E5%B8%81%E7%A7%8D%E7%9A%84%E5%85%85%E5%80%BC%E5%9C%B0%E5%9D%80)
+
+[/open/api/withdraw_address_list-查询指定币种的提现地址](https://github.com/UEX-OpenAPI/API_Docs/wiki/%E6%9F%A5%E8%AF%A2%E6%8C%87%E5%AE%9A%E5%B8%81%E7%A7%8D%E7%9A%84%E6%8F%90%E7%8E%B0%E5%9C%B0%E5%9D%80)
+
+[/open/api/deposit_history-查询指定币种的充值记录](https://github.com/UEX-OpenAPI/API_Docs/wiki/%E6%9F%A5%E8%AF%A2%E6%8C%87%E5%AE%9A%E5%B8%81%E7%A7%8D%E7%9A%84%E5%85%85%E5%80%BC%E8%AE%B0%E5%BD%95)
+
+[/open/api/withdraw_history-查询指定币种的提现记录](https://github.com/UEX-OpenAPI/API_Docs/wiki/%E6%9F%A5%E8%AF%A2%E6%8C%87%E5%AE%9A%E5%B8%81%E7%A7%8D%E7%9A%84%E6%8F%90%E7%8E%B0%E8%AE%B0%E5%BD%95)
+
+[/open/api/create_withdraw-发起提现申请](https://github.com/UEX-OpenAPI/API_Docs/wiki/%E5%8F%91%E8%B5%B7%E6%8F%90%E7%8E%B0%E7%94%B3%E8%AF%B7)

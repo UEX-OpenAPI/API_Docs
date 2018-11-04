@@ -6,6 +6,8 @@ English Documents [click here](https://github.com/UEX-OpenAPI/API_Docs_en/wiki)
 
 [Home](https://github.com/UEX-OpenAPI/API_Docs/wiki)
 
+[错误码](https://github.com/UEX-OpenAPI/API_Docs/wiki/%E9%94%99%E8%AF%AF%E7%A0%81)
+
 [/open/api/all_order-获取全部委托](https://github.com/UEX-OpenAPI/API_Docs/wiki/%E8%8E%B7%E5%8F%96%E5%85%A8%E9%83%A8%E5%A7%94%E6%89%98)
 
 [/open/api/all_trade-获取全部成交记录](https://github.com/UEX-OpenAPI/API_Docs/wiki/%E8%8E%B7%E5%8F%96%E5%85%A8%E9%83%A8%E6%88%90%E4%BA%A4%E8%AE%B0%E5%BD%95)
